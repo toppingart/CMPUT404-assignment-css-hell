@@ -37,12 +37,21 @@ gutenberg.css, good.html, bad.html © 2023 by Elena Xu is licensed under CC BY-S
 
 Screenshots (good.png, bad.png, gutenberg1.png, gutenberg2.png, gutenberg3.png) were created by me, on Ubuntu 20.04 VM.
 
+Part I: Modifications made
+=================
+* In order to make the HTML documents look "old", some changes were made. In my gutenberg.css file...
+  * The body was changed to give it a an old, yellowish background
+  * The font of the paragraphs were changed to Garamond (serif) as the first font choice
+  * Headers (e.g. Chapter #), were bolded
+  * Image captions (if they exist) were usually italicized
+  * White backgrounds (if they exist) were removed from images
+  * Anchor tags were changed such that they would blend in, rather than appear as blue
+  
 External Sources Used:
 =================
-
 ## Part I Credits:
 * https://cssgradient.io/
-  * Helped me create the gradient used in Part I
+  * Helped me create the linear gradient used in Part I
   
 * user1822264's idea on how to get rid of the white background in images, licensed under Creative Commons-Attribution-ShareAlike 4.0 (CC-BY-SA 4.0), found on Stack Overflow (https://stackoverflow.com/)
   * Title of question: Make white background of image transparent in css
@@ -55,7 +64,7 @@ External Sources Used:
 ## Part 2 Credits:
 * Some Bootstrap components was used in ugly.html and good.html
   * Bootstrap is released under the MIT license and is copyright 2023.
-  * Bootstrap components used: Navbar, Cards
+  * Bootstrap components used: Navbar, Cards (by copying and pasting the html for them)
     * https://getbootstrap.com/docs/5.3/components/navbar/
     * https://getbootstrap.com/docs/5.3/components/card/
 
