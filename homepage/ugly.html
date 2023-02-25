@@ -14,8 +14,8 @@
 <div>
 <h1 class ="title-box">
    <b>My Web Page</b> 
-   <img style="width:100px;height:100px;"src="https://www.exodus.com/img/news/content/2022/11/flat-550x550-075-f.u1.jpg">
-   <img style="width:100px;height:100px;"class="profile-photo" id="photo" src = "https://media.licdn.com/dms/image/C4D03AQGWt9u8j9Nhdw/profile-displayphoto-shrink_400_400/0/1611593765149?e=1682553600&v=beta&t=sk2JmLwvCjLM89smaW02H4ht8fZClcVfhTxYhFYHyjQ">
+   <img src="https://www.exodus.com/img/news/content/2022/11/flat-550x550-075-f.u1.jpg">
+   <img id="photo" src = "https://media.licdn.com/dms/image/C4D03AQGWt9u8j9Nhdw/profile-displayphoto-shrink_400_400/0/1611593765149?e=1682553600&v=beta&t=sk2JmLwvCjLM89smaW02H4ht8fZClcVfhTxYhFYHyjQ">
 
 </h1> 
 </div>
@@ -24,26 +24,17 @@
     
 <p style="text-align: center;"> Very hardworking and very enthusiastic</p>
 
-
-<div class="nav-bar-section" style="float:left">
-
-<p>
-Enjoy working with databases!!!
-</p>
-
-</div>
-
-
-<div class="nav-bar-section" style="float:right;transform: rotate(-90deg);">
+<div class="nav-bar-section">
 
 <p>
-Contact me by email! Here is also my Github: [insert Github link here]
+Contact me by email at elenaxu01@gmail.com! Here is also my Github: [insert Github link here] <br/>
+I enjoy working with databases!
 </p>
     
 </div>
 
-<div style="text-align:center;">
-<p style="background-color:rgb(160, 224, 203)">
+<div id="full-description">
+<p id="who-i-am">
 
         Who I am:
  
@@ -52,7 +43,7 @@ Contact me by email! Here is also my Github: [insert Github link here]
     A 4th year student at the University of Alberta studying computing science 
 </p>
 
-<p style="background-color: lightpink;">
+<p id="have-to-offer">
 
        What I have to offer:
 
@@ -60,7 +51,7 @@ Contact me by email! Here is also my Github: [insert Github link here]
    Know Python, Java, C, Javascript
 </p>
 
-<p style="background-color: lightskyblue;">
+<p id="professional-history">
  
        Professional History:
    
@@ -69,7 +60,7 @@ Contact me by email! Here is also my Github: [insert Github link here]
 </p>
 
 
-<p style="background-color: lightblue;">
+<p id="important-points">
  
       Important Points:
 
@@ -94,6 +85,11 @@ Contact me by email! Here is also my Github: [insert Github link here]
     margin-left: 500px;
 }
 
+#photo{
+    width:100px;
+    height:100px;
+}
+
 .rotate{
     transform:rotate(90deg)
 }
@@ -101,8 +97,33 @@ Contact me by email! Here is also my Github: [insert Github link here]
 .nav-bar-section{
     background-color: white;
     box-shadow: 5px 5px 5px black;
-    transform: rotate(90deg)   
+    transform: rotate(-90deg);
+    float:right;
+    margin-right:-250px;
+    padding:50px;
 }
+
+#full-description{
+    text-align:center;
+}
+
+#who-i-am{
+    background-color:rgb(160, 224, 203);
+}
+
+#have-to-offer{
+    background-color: lightpink;
+}
+
+#professional-history{
+    background-color: lightskyblue;
+}
+
+#important-points{
+    background-color: lightblue;
+}
+
+
 
 body{
     color:black;
