@@ -65,8 +65,8 @@ External Sources Used:
 * Some Bootstrap components was used in ugly.html and good.html
   * Bootstrap is released under the MIT license and is copyright 2023.
   * Bootstrap components used: Navbar, Cards (by copying and pasting the html for them)
-    * https://getbootstrap.com/docs/5.3/components/navbar/
-    * https://getbootstrap.com/docs/5.3/components/card/
+    * https://getbootstrap.com/docs/5.3/components/navbar/#supported-content
+    * https://getbootstrap.com/docs/5.3/components/card/#example
 
 ## Other Credits:
 * Some external images were used, and the source of those images can be found in the img tag (src = "...")
