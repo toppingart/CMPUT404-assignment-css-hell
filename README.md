@@ -28,11 +28,12 @@ Generally everything is LICENSE'D under the Apache 2 license by Abram Hindle.
  * Modifications were made to 1.html, 2.html, 3.html in order to link to an external style sheet
 * gutenberg.css was used to style 1.html, 2.html, and 3.html
 * The following novels were used:
-   * Heart of Darkness by Joseph Conrad
+   * Frankenstein by Mary Wollstonecraft (Godwin) Shelley
    * The Great Gatsby by F. Scott Fitzgerald
    * Pride and Prejudice by Jane Austen
+     * 3.html contains images, hence the existence of the folder 3_files
 
-gutenberg.css, good.html, bad.html © 2023 by Elena Xu is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
+gutenberg.css, good.html, ugly.html © 2023 by Elena Xu is licensed under CC BY-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
 
 
 Screenshots (good.png, bad.png, gutenberg1.png, gutenberg2.png, gutenberg3.png) were created by me, on Ubuntu 20.04 VM.
@@ -43,8 +44,8 @@ Part I: Modifications made
   * The body was changed to give it a an old, yellowish background
   * The font of the paragraphs were changed to Garamond (serif) as the first font choice
   * Headers (e.g. Chapter #), were bolded
-  * Image captions (if they exist) were usually italicized
-  * White backgrounds (if they exist) were removed from images
+  * Image captions (if they exist) were italicized
+  * White backgrounds were removed from images (if they exist)
   * Anchor tags were changed such that they would blend in, rather than appear as blue
   
 External Sources Used:
@@ -61,7 +62,7 @@ External Sources Used:
   * Link to author (in this case, the person who answered the question): https://stackoverflow.com/users/1822264/user1822264
   * Link to license: https://creativecommons.org/licenses/by-sa/4.0/
 
-## Part 2 Credits:
+## Part II Credits:
 * Some Bootstrap components was used in ugly.html and good.html
   * Bootstrap is released under the MIT license and is copyright 2023.
   * Bootstrap components used: Navbar, Cards (by copying and pasting the html for them)
