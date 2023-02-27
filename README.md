@@ -41,12 +41,12 @@ Screenshots (good.png, bad.png, gutenberg1.png, gutenberg2.png, gutenberg3.png) 
 Part I: Modifications made
 =================
 * In order to make the HTML documents look "old", some changes were made. In my gutenberg.css file...
-  * The body was changed to give it a an old, yellowish background
-  * The font of the paragraphs were changed to Garamond (serif) as the first font choice
+  * The body was changed to give it a an old, yellowish background (a linear gradient was used)
+  * The font-family of the paragraphs were changed to Garamond as the first font choice
   * Headers (e.g. Chapter #), were bolded
   * Image captions (if they exist) were italicized
-  * White backgrounds were removed from images (if they exist)
-  * Anchor tags were changed such that they would blend in, rather than appear as blue
+  * White backgrounds were removed from the images (if they exist)
+  * Anchor tags were changed such that the links would "blend in" with the page, rather than stick out and appear as blue
   
 External Sources Used:
 =================
